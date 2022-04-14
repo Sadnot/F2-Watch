@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2 Watch</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon" style="size: 18px; background: transparent">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header" style="background: transparent;">
+        <div class="header-nav">
+            <div class="header-nav-item menu">
+                <i class="fa-solid fa-bars"></i>
+                <h3>Danh mục</h3>
+            </div>
+            <div class="header-nav-item search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <h3>Tìm kiếm</h3>
+            </div>
+            <div class="header-nav-item log-in">
+                <i class="fa-solid fa-user"></i>
+                <h3>Đăng nhập</h3>
+            </div>
+        </div>
+
+        <div id="logo">
+            <img src="./img/logo.jpg" alt="">
+        </div>
+
+        <div class="header-nav">
+            <div class="header-nav-item">
+                <i class="fa-solid fa-heart"></i>
+                <h3>Yêu thích</h3>
+            </div>
+            <div class="header-nav-item">
+                <i class="fa-solid fa-shuffle"></i>
+                <h3>So sánh</h3>
+            </div>
+            <div class="header-nav-item">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h3>Giỏ hàng</h3>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="nav-link-add hide">
+        <div class="nav-link-add-content">
+            <div class="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="nav-link-add-item">
+                <a href="#">
+                    TRANG CHỦ
+                </a>
+            </div>
+            <div class="nav-link-add-item">
+                <a href="#">
+                    SẢN PHẨM
+                </a>
+            </div>
+            <div class="nav-link-add-item">
+                <a href="#">
+                    BLOG
+                </a>
+            </div>
+            <div class="nav-link-add-item">
+                <a href="#">
+                    GIỚI THIỆU
+                </a>
+            </div>
+            <div class="nav-link-add-item">
+                <a href="#">
+                    LIÊN HỆ
+                </a>
+            </div>
+            <div class="nav-link-add-item">
+                <a href="#">
+                    ĐĂNG NHẬP
+                </a>
+            </div>
+            <div class="nav-link-add-item">
+                <a href="#">
+                    ĐĂNG KÝ
+                </a>
+            </div>
+            <div class="support">
+                <h1>HỖ TRỢ</h1>
+                <div class="support-phone">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p>1900757485</p>
+                </div>
+                <p style="font-size: 14px;">Nhận bản tin mới nhất và khám phá bộ sưu tập của chúng tôi.</p>
+                <div class="registration">
+                    <input type="text" placeholder="Nhập email của bạn...">
+                    <button type="submit">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="nav-search nav-link-add hide">
+        <div class="nav-link-search nav-link-add-content">
+            <div class="close-btn close-btn2">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="searching">
+                <input type="text" name="" id="" placeholder="Tìm kiếm sản phẩm...">
+                <button type="submit">
+                    Tìm kiếm
+                </button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+            </div>
+            <div class="support">
+                <h1>HỖ TRỢ</h1>
+                <div class="support-phone">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p>1900757485</p>
+                </div>
+                <p style="font-size: 14px;">Nhận bản tin mới nhất và khám phá bộ sưu tập của chúng tôi.</p>
+                <div class="registration">
+                    <input type="text" placeholder="Nhập email của bạn...">
+                    <button type="submit">Đăng ký</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="main">
+       <div class="slide">
+            <div class="mySlides fade">
+                <a href="#">
+                    <img src="./img/slideShow_f1_1.webp" alt="">
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#">
+                    <img src="./img/slideShow_f1_2.png" alt="">
+                </a>
+            </div>
+            <div class="mySlides fade">
+                <a href="#">
+                    <img src="./img/slideShow_f1_3.png" alt="">
+                </a>
+            </div>
+
+            <div class="slide-move">
+                <div class="slide-move-prev" onclick="plusSlides(-1)">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="slide-move-next" onclick="plusSlides(1)">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+       </div>
+
+       <div class="social">
+           <a href="#">
+                <div class="social-link">
+                    <img src="./img/zalo-logo.png" style="width: 40px;" alt="">
+                    Zalo
+                </div>
+           </a>
+           <a href="#">
+                <div class="social-link">
+                    <img src="./img/mes.jpg" style="width: 30px;" alt="">
+                    Messager
+                </div>
+           </a>
+            <a href="#">
+                <div class="social-link">
+                    <img src="./img/instagram.jpg" style="width: 30px;" alt="">
+                    Instagram
+                </div>
+            </a>
+            <a href="#">
+                <div class="social-link">
+                    <img src="./img/yt.png" style="width: 30px;" alt="">
+                    Youtube
+                </div>
+            </a>
+            <a href="#">
+                <div class="social-link">
+                    <img src="./img/tiktok.jpg" style="width: 30px;" alt="">
+                    Tiktok
+                </div>
+            </a>
+            <a href="#">
+                <div class="social-link">
+                    <img src="./img/shoppe.jpg" style="width: 30px;" alt="">
+                    Shoppe
+                </div>
+            </a>
+       </div>
+
+       <div class="intro">
+            <div class="hot-product rorateY">
+                <div class="hot-product-header">
+                    <div class="hot-product-header-hot">
+                        HOT
+                    </div>
+                    <div class="hot-product-header-title">
+                        <h3>Bán Chạy Nhất</h3>
+                        <p>Hơn 1000+ mẫu thiết kế theo phong cách của bạn.</p>
+                    </div>
+                    <span class="line"></span>
+                </div>
+    
+                <div class="hot-product-content opacity1">
+                    <img src="./img/hot-pr1.webp" style="width: 100%;" alt="Loi">
+                    <div class="hot-product-content-name">
+                        <h4>Heritage Series</h4>
+                        <h3>ĐỒNG HỒ CITIZEN NAM NH8390-03X</h3>
+                    </div>
+                    <div class="hot-product-content-price">
+                        <span class="price-sale">
+                        54,000,000đ
+                        </span>
+                        <span class="price">
+                        59,000,000đ
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="hot-product-content-detail opacity0 ro">
+                    <div class="grid-3">
+                        <img src="./img/hot-pr1.webp" alt="">
+                        <img src="./img/hot1.webp" alt="">
+                        <img src="./img/hot-pr2.webp" alt="">
+                    </div>
+                    <div class="hot-product-name">
+                        ĐỒNG HỒ MIDO NAM M032.60
+                    </div>
+                    <div class="hot-product-content-price flex-derection">
+                    <span class="price-sale center" style="font-size: 28px;">
+                    54,000,000đ
+                    </span>
+                    <span class="price center left" style="font-size: 20px;">
+                    59,000,000đ
+                    </span>
+                    <p class="center margin1"><b>Thương hiệu: </b>Heritage Series</p>
+                    <p class="center margin0"><b>Loại: </b>Movado Heritage Series</p>
+    
+                    <div class="hot-product-content-detail-text">
+                        <p>Movado Heritage Series Calendoplan S Automatic, 43 mm stainless steel case with blue-toned dial on black 
+                            leather strap with rotating bezel. Caseback features an exposed automatic movement that has a 38-hour power reserve. 
+                            If you have not worn your watch for 38 hours or more, you will need to wind it by turning the watch crown 
+                            clockwise approximately 20 revolutions before setting the time.
+                        </p>
+                    </div>
+    
+                    <div class="flex-icon">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-shuffle"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="about-home">
+                <div class="about-home-header">
+                    <h2>Về chúng tôi</h2>
+                    <p>Top 10 mẫu đồng hồ nam đẹp đáng mua nhất thị trường 2021</p>
+                    <span></span>
+                </div>
+                <div class="about-home-content">
+                    <p>Bên cạch chuỗi các cửa hàng trên, chúng tôi phát triển Website bán hàng trực tuyến tại địa chỉ: 
+                        F1gen Watch nhằm mang đến cho Khách hàng thêm một lựa chọn mua sắm tiện ích, tiết kiệm thời gian, 
+                        dễ dàng chọn lựa khi có nhu cầu tìm mua một chiếc đồng hồ tốt chính hãng. Trang web F1gen Watch được
+                         xây dựng với giao diện sang trọng thể hiện chất lượng của sản phẩm đang bán cũng như tiêu chí kinh doanh 
+                         chuẩn mực, với tính năng đặt hàng online được tích hợp sẵn cho từng sản phẩm, khách hàng sẽ nhận được phản 
+                         hồi nhanh chóng từ chúng tôi khi gửi cho chúng tôi "Đơn đặt hàng" trực tiếp từ website.
+                    </p>
+                    <h4>F2 - WATCH</h4>
+                </div>
+            </div>
+       </div>
+
+       <div class="service grid-1-1-1">
+            <a href="#">
+                <div class="service-item">
+                    <img src="./img/service-img1.webp" alt="">
+                    <div class="service-item-content">
+                        <h2>Hỗ trợ</h2>
+                        <p>Hỗ trợ trực tuyến 24/7</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="service-item">
+                    <img src="./img/service-img2.webp" alt="">
+                    <div class="service-item-content">
+                        <h2>Vận chuyển</h2>
+                        <p>Ưu đãi giao hàng tận nhà miễn phí</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="service-item">
+                    <img src="./img/service-img3.webp" alt="">
+                    <div class="service-item-content">
+                        <h2>Thanh toán</h2>
+                        <p>Hệ thống thanh toán hoàn toàn an toàn</p>
+                    </div>
+                </div>
+            </a>
+       </div>
+
+       <div class="trademark">
+           <div class="trademark-img">
+                <img src="./img/trademark.png" alt="">
+                <div class="trademark-content">
+                    <h2>THƯƠNG HIỆU THỤY SỸ</h2>
+                    <p>Những cỗ máy đếm tiêu chuẩn Swiss Made luôn là niềm mong chờ và khao khát của tín đồ sành đồng hồ thế giới
+                        . Hiện nay các thương hiệu đồng hồ đeo tay nổi tiếng luôn nỗ lực tạo ra những sản phẩm chất lượng nhất để đem lại giá trị cao cho người dùng
+                     </p>
+                     <a href="#">Mua ngay</a>
+                </div>
+           </div>
+       </div>
+
+       <div class="products grid-4-2">
+            <div class="products-item rorateY darkslategray-color products-item-add">
+                <div class="hot-product-content opacity1">
+                    <img class="img-sm" src="./img/product1.webp" alt="Loi">
+                    <div class="hot-product-content-name">
+                        <h4 style="color: #b7b7b7">Movado Heritage Series</h4>
+                        <h3 style="color: #ffffff;">ĐỒNG HỒ CALVIN KLEIN NAM K5R31B46</h3>
+                    </div>
+                    <div class="hot-product-content-price">
+                        <span class="price-sale" style="color:#c7a06e">
+                            55,000,000₫
+                        </span>
+                        <span class="price">
+                            60,000,000₫
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="hot-product-content-detail opacity0 top-sub">
+                    <div class="grid-3">
+                        <img src="./img/product1.webp" alt="">
+                        <img src="./img/product1_2.webp" alt="">
+                        <img src="./img/product1_3.webp" alt="">
+                    </div>
+                    <div class="hot-product-name fontsize16">
+                        ĐỒNG HỒ CALVIN KLEIN NAM K5R31B46
+                    </div>
+                    <div class="hot-product-content-price flex-derection">
+                    <span class="price-sale center" style="font-size: 18px;">
+                        55,000,000₫
+                    </span>
+                    <span class="price center left padding-left18" style="font-size: 14px;">
+                        60,000,000₫
+                    </span>
+                    <p class="center margin1"><b>Thương hiệu: </b>Movado Heritage Series</p>
+                    <p class="center margin0"><b>Loại: </b>Heritage Seriess</p>
+    
+                    <div class="hot-product-content-detail-text">
+                        <p>Movado Heritage Series Calendoplan S Automatic, 43 mm stainless steel case with blue-toned dial on black 
+                            leather strap with rotating bezel. Caseback features an exposed automatic movement that has a 38-hour power reserve. 
+                            If you have not worn your watch for 38 hours or more, you will need to wind it by turning the watch crown 
+                            clockwise approximately 20 revolutions before setting the time.
+                        </p>
+                    </div>
+    
+                    <div class="flex-icon">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-shuffle"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="products-item rorateY darkslategray-color products-item-add">
+                <div class="hot-product-content opacity1">
+                    <img class="img-sm" src="./img/product2.webp" alt="Loi">
+                    <div class="hot-product-content-name">
+                        <h4 style="color: #b7b7b7">Movado Heritage Series</h4>
+                        <h3 style="color: #ffffff;">ĐỒNG HỒ CHARRIOL NỮ MOPD3</h3>
+                    </div>
+                    <div class="hot-product-content-price">
+                        <span class="price-sale" style="color:#c7a06e">
+                            45,000,000₫
+                        </span>
+                        <span class="price">
+                            50,000,000₫
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="hot-product-content-detail opacity0 top-sub">
+                    <div class="grid-3">
+                        <img src="./img/product2.webp" alt="">
+                        <img src="./img/product2_2.webp" alt="">
+                        <img src="./img/product2_3.webp" alt="">
+                    </div>
+                    <div class="hot-product-name fontsize16">
+                        ĐỒNG HỒ CHARRIOL NỮ MOPD
+                    </div>
+                    <div class="hot-product-content-price flex-derection">
+                    <span class="price-sale center" style="font-size: 18px;">
+                        45,000,000₫ 
+                    </span>
+                    <span class="price center left padding-left18" style="font-size: 14px;">
+                        50,000,000₫
+                    </span>
+                    <p class="center margin1"><b>Thương hiệu: </b>Movado Heritage Series</p>
+                    <p class="center margin0"><b>Loại: </b>Heritage Series</p>
+    
+                    <div class="hot-product-content-detail-text">
+                        <p>Movado Heritage Series Calendoplan S Automatic, 43 mm stainless steel case with blue-toned dial on black 
+                            leather strap with rotating bezel. Caseback features an exposed automatic movement that has a 38-hour power reserve. 
+                            If you have not worn your watch for 38 hours or more, you will need to wind it by turning the watch crown 
+                            clockwise approximately 20 revolutions before setting the time.
+                        </p>
+                    </div>
+    
+                    <div class="flex-icon">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-shuffle"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="products-item rorateY darkslategray-color products-item-add">
+                <div class="hot-product-content opacity1">
+                    <img class="img-sm" src="./img/product3.webp" alt="Loi">
+                    <div class="hot-product-content-name">
+                        <h4 style="color: #b7b7b7">Heritage Series</h4>
+                        <h3 style="color: #ffffff;">ĐỒNG HỒ CITIZEN NAM NH8390-03X</h3>
+                    </div>
+                    <div class="hot-product-content-price">
+                        <span class="price-sale" style="color:#c7a06e">
+                        54,000,000đ
+                        </span>
+                        <span class="price">
+                        59,000,000đ
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="hot-product-content-detail opacity0 top-sub">
+                    <div class="grid-3">
+                        <img src="./img/hot-pr1.webp" alt="">
+                        <img src="./img/hot1.webp" alt="">
+                        <img src="./img/hot-pr2.webp" alt="">
+                    </div>
+                    <div class="hot-product-name fontsize16">
+                        ĐỒNG HỒ MIDO NAM M032.60
+                    </div>
+                    <div class="hot-product-content-price flex-derection">
+                    <span class="price-sale center" style="font-size: 18px;">
+                    54,000,000đ
+                    </span>
+                    <span class="price center left padding-left18" style="font-size: 14px;">
+                    59,000,000đ
+                    </span>
+                    <p class="center margin1"><b>Thương hiệu: </b>Heritage Series</p>
+                    <p class="center margin0"><b>Loại: </b>Movado Heritage Series</p>
+    
+                    <div class="hot-product-content-detail-text">
+                        <p>Movado Heritage Series Calendoplan S Automatic, 43 mm stainless steel case with blue-toned dial on black 
+                            leather strap with rotating bezel. Caseback features an exposed automatic movement that has a 38-hour power reserve. 
+                            If you have not worn your watch for 38 hours or more, you will need to wind it by turning the watch crown 
+                            clockwise approximately 20 revolutions before setting the time.
+                        </p>
+                    </div>
+    
+                    <div class="flex-icon">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-shuffle"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="products-item rorateY darkslategray-color products-item-add">
+                <div class="hot-product-content opacity1">
+                    <img class="img-sm" src="./img/product4.webp" alt="Loi">
+                    <div class="hot-product-content-name">
+                        <h4 style="color: #b7b7b7">Movado Heritage Series</h4>
+                        <h3 style="color: #ffffff;">ĐỒNG HỒ LONGINES NAM L2</h3>
+                    </div>
+                    <div class="hot-product-content-price">
+                        <span class="price-sale" style="color:#c7a06e">
+                            74,000,000₫
+                        </span>
+                        <span class="price">
+                            79,000,000₫
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="hot-product-content-detail opacity0 top-sub">
+                    <div class="grid-3">
+                        <img src="./img/product4.webp" alt="">
+                        <img src="./img/product4_2.webp" alt="">
+                        <img src="./img/product4_3.webp" alt="">
+                    </div>
+                    <div class="hot-product-name fontsize16">
+                        ĐỒNG HỒ LONGINES NAM L2
+                    </div>
+                    <div class="hot-product-content-price flex-derection">
+                    <span class="price-sale center" style="font-size: 18px;">
+                        74,00,000₫
+                    </span>
+                    <span class="price center left padding-left18" style="font-size: 14px;">
+                        79,000,000₫
+                    </span>
+                    <p class="center margin1"><b>Thương hiệu: </b>Heritage Series</p>
+                    <p class="center margin0"><b>Loại: </b>Movado Heritage Series</p>
+    
+                    <div class="hot-product-content-detail-text">
+                        <p>Movado Heritage Series Calendoplan S Automatic, 43 mm stainless steel case with blue-toned dial on black 
+                            leather strap with rotating bezel. Caseback features an exposed automatic movement that has a 38-hour power reserve. 
+                            If you have not worn your watch for 38 hours or more, you will need to wind it by turning the watch crown 
+                            clockwise approximately 20 revolutions before setting the time.
+                        </p>
+                    </div>
+    
+                    <div class="flex-icon">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-shuffle"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="products-item rorateY darkslategray-color products-item-add">
+                <div class="hot-product-content opacity1">
+                    <img class="img-sm" src="./img/product5.webp" alt="Loi">
+                    <div class="hot-product-content-name">
+                        <h4 style="color: #b7b7b7">Heritage Series</h4>
+                        <h3 style="color: #ffffff;">ĐỒNG HỒ LONGINES NAM L2.893.4</h3>
+                    </div>
+                    <div class="hot-product-content-price">
+                        <span class="price-sale" style="color:#c7a06e">
+                            69,000,000₫
+                        </span>
+                        <!-- <span class="price">
+                        59,000,000đ
+                        </span> -->
+                    </div>
+                </div>
+    
+                <div class="hot-product-content-detail opacity0 top-sub">
+                    <div class="grid-3">
+                        <img src="./img/product5.webp" alt="">
+                        <img src="./img/product5_2.webp" alt="">
+                        <img src="./img/product5_3.webp" alt="">
+                    </div>
+                    <div class="hot-product-name fontsize16">
+                        ĐỒNG HỒ LONGINES NAM L2.893.4
+                    </div>
+                    <div class="hot-product-content-price flex-derection">
+                    <span class="price-sale center" style="font-size: 18px;">
+                        69,000,000₫
+                    </span>
+                    <!-- <span class="price center left padding-left18" style="font-size: 14px;">
+                    59,000,000đ
+                    </span> -->
+                    <p class="center margin1"><b>Thương hiệu: </b>Heritage Series</p>
+                    <p class="center margin0"><b>Loại: </b>Movado Heritage Series</p>
+    
+                    <div class="hot-product-content-detail-text">
+                        <p>Movado Heritage Series Calendoplan S Automatic, 43 mm stainless steel case with blue-toned dial on black 
+                            leather strap with rotating bezel. Caseback features an exposed automatic movement that has a 38-hour power reserve. 
+                            If you have not worn your watch for 38 hours or more, you will need to wind it by turning the watch crown 
+                            clockwise approximately 20 revolutions before setting the time.
+                        </p>
+                    </div>
+    
+                    <div class="flex-icon">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-shuffle"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="products-item rorateY darkslategray-color products-item-add">
+                <div class="hot-product-content opacity1">
+                    <img class="img-sm" src="./img/hot-pr1.webp" alt="Loi">
+                    <div class="hot-product-content-name">
+                        <h4 style="color: #b7b7b7">Heritage Series</h4>
+                        <h3 style="color: #ffffff;">ĐỒNG HỒ CITIZEN NAM NH8390-03X</h3>
+                    </div>
+                    <div class="hot-product-content-price">
+                        <span class="price-sale" style="color:#c7a06e">
+                        54,000,000đ
+                        </span>
+                        <span class="price">
+                        59,000,000đ
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="hot-product-content-detail opacity0 top-sub">
+                    <div class="grid-3">
+                        <img src="./img/hot-pr1.webp" alt="">
+                        <img src="./img/hot1.webp" alt="">
+                        <img src="./img/hot-pr2.webp" alt="">
+                    </div>
+                    <div class="hot-product-name fontsize16">
+                        ĐỒNG HỒ MIDO NAM M032.60
+                    </div>
+                    <div class="hot-product-content-price flex-derection">
+                    <span class="price-sale center" style="font-size: 18px;">
+                    54,000,000đ
+                    </span>
+                    <span class="price center left padding-left18" style="font-size: 14px;">
+                    59,000,000đ
+                    </span>
+                    <p class="center margin1"><b>Thương hiệu: </b>Heritage Series</p>
+                    <p class="center margin0"><b>Loại: </b>Movado Heritage Series</p>
+    
+                    <div class="hot-product-content-detail-text">
+                        <p>Movado Heritage Series Calendoplan S Automatic, 43 mm stainless steel case with blue-toned dial on black 
+                            leather strap with rotating bezel. Caseback features an exposed automatic movement that has a 38-hour power reserve. 
+                            If you have not worn your watch for 38 hours or more, you will need to wind it by turning the watch crown 
+                            clockwise approximately 20 revolutions before setting the time.
+                        </p>
+                    </div>
+    
+                    <div class="flex-icon">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-shuffle"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="products-item rorateY darkslategray-color products-item-add">
+                <div class="hot-product-content opacity1">
+                    <img class="img-sm" src="./img/product6.webp" alt="Loi">
+                    <div class="hot-product-content-name">
+                        <h4 style="color: #b7b7b7">Movado Heritage Series</h4>
+                        <h3 style="color: #ffffff;">ĐỒNG HỒ MIDO NAM M021.626</h3>
+                    </div>
+                    <div class="hot-product-content-price">
+                        <span class="price-sale" style="color:#c7a06e">
+                            80,000,000₫
+                        </span>
+                        <span class="price">
+                            85,000,000₫
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="hot-product-content-detail opacity0 top-sub">
+                    <div class="grid-3">
+                        <img src="./img/product6.webp" alt="">
+                        <img src="./img/product6_2.webp" alt="">
+                        <img src="./img/product6_3.webp" alt="">
+                    </div>
+                    <div class="hot-product-name fontsize16">
+                        ĐỒNG HỒ MIDO NAM M021.626
+                    </div>
+                    <div class="hot-product-content-price flex-derection">
+                    <span class="price-sale center" style="font-size: 18px;">
+                        80,000,000₫
+                    </span>
+                    <span class="price center left padding-left18" style="font-size: 14px;">
+                        85,000,000₫
+                    </span>
+                    <p class="center margin1"><b>Thương hiệu: </b>Heritage Series</p>
+                    <p class="center margin0"><b>Loại: </b>Movado Heritage Series</p>
+    
+                    <div class="hot-product-content-detail-text">
+                        <p>Movado Heritage Series Calendoplan S Automatic, 43 mm stainless steel case with blue-toned dial on black 
+                            leather strap with rotating bezel. Caseback features an exposed automatic movement that has a 38-hour power reserve. 
+                            If you have not worn your watch for 38 hours or more, you will need to wind it by turning the watch crown 
+                            clockwise approximately 20 revolutions before setting the time.
+                        </p>
+                    </div>
+    
+                    <div class="flex-icon">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-shuffle"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="products-item rorateY darkslategray-color products-item-add">
+                <div class="hot-product-content opacity1">
+                    <img class="img-sm" src="./img/product7.webp" alt="Loi">
+                    <div class="hot-product-content-name">
+                        <h4 style="color: #b7b7b7">Heritage Series</h4>
+                        <h3 style="color: #ffffff;">ĐỒNG HỒ MIDO NAM M032.60
+                        </h3>
+                    </div>
+                    <div class="hot-product-content-price">
+                        <span class="price-sale" style="color:#c7a06e">
+                            70,000,000₫
+                        </span>
+                        <span class="price">
+                            78,000,000₫
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="hot-product-content-detail opacity0 top-sub">
+                    <div class="grid-3">
+                        <img src="./img/product7.webp" alt="">
+                        <img src="./img/product7_2.webp" alt="">
+                        <img src="./img/product7_3.webp" alt="">
+                    </div>
+                    <div class="hot-product-name fontsize16">
+                        ĐỒNG HỒ MIDO NAM M032.60
+                    </div>
+                    <div class="hot-product-content-price flex-derection">
+                    <span class="price-sale center" style="font-size: 18px;">
+                        70,000,000₫
+                    </span>
+                    <span class="price center left padding-left18" style="font-size: 14px;">
+                        78,000,000₫
+                    </span>
+                    <p class="center margin1"><b>Thương hiệu: </b>Heritage Series</p>
+                    <p class="center margin0"><b>Loại: </b>Movado Heritage Series</p>
+    
+                    <div class="hot-product-content-detail-text">
+                        <p>Movado Heritage Series Calendoplan S Automatic, 43 mm stainless steel case with blue-toned dial on black 
+                            leather strap with rotating bezel. Caseback features an exposed automatic movement that has a 38-hour power reserve. 
+                            If you have not worn your watch for 38 hours or more, you will need to wind it by turning the watch crown 
+                            clockwise approximately 20 revolutions before setting the time.
+                        </p>
+                    </div>
+    
+                    <div class="flex-icon">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-heart"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-shuffle"></i>
+                        </span>
+                        <span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            
+       </div>
+
+       <div class="trademark">
+            <div class="trademark-img">
+                <div class="trademark-content change-position">
+                    <h2>Audemars Piguet Chính Hãng</h2>
+                    <p>
+                        Là một tên tuổi lâu đời trong ngành chế tạo đồng hồ Thụy Sỹ, thương hiệu Audemars Piguet vẫn luôn chứng minh được giá 
+                        trị của mình trên thị trường đồng hồ thế giới tính từ ngày thành lập cho đến nay. Và ít ai biết được rằng, Audemars 
+                        Piguet chính là thương hiệu đồng hồ duy nhất ở phân mức cao cấp trên thế giới có người điều hành hoạt động kinh doanh 
+                        là hậu duệ đời thứ tư của những người sáng lập.
+                    </p>
+                    <a href="#">Mua ngay</a>
+                </div>
+                <img src="./img/trademark2.png" alt="">
+            </div>
+       </div>
+
+       <div class="countdown-timer">
+           <a href="#">
+            <h2>THÔNG TIN KHUYẾN MÃI</h2>
+            <div class="countdown-timer-wrapper">
+             <div id="days" class="countdown-timer-item">
+                 <!-- Day
+                 <br>
+                 <br> -->
+                 00
+             </div>
+             <div id="hours" class="countdown-timer-item">
+                  <!-- Hours
+                  <br>
+                  <br> -->
+                  00
+              </div>
+              <div id="minutes" class="countdown-timer-item">
+                  <!-- Mins
+                 <br>
+                 <br> -->
+                  00
+              </div>
+              <div id="seconds" class="countdown-timer-item">
+                  <!-- Seconds
+                  <br>
+                  <br> -->
+                  00
+              </div>
+            </div>
+           </a>
+        </div>
+
+        <div class="trademark">
+            <div class="trademark-img">
+                 <img src="./img/trademark.png" alt="">
+                 <div class="trademark-content">
+                     <h2>Thương Hiệu Đồng Hồ Mido</h2>
+                     <p>Mido được thành lập vào ngày 11/11/1918 bởi George G. Schaeren đặt trụ sở tại Le Locle, Thụy Sỹ. 
+                         Tên thương hiệu này bắt nguồn từ cụm từ “Yo mido” trong tiếng Tây Ban Nha nghĩa là “Tôi đo” 
+                         mang hàm ý về sự cách tân kỹ thuật và thiết kế vĩnh cửu
+                      </p>
+                      <a href="#">Mua ngay</a>
+                 </div>
+            </div>
+        </div>
+
+       <!-- <div class="trademark-slideshow">
+        <div class="carousel">
+            <div class="carousel__cards">
+                <div class="carousel__card">
+                    <img class="carousel__img"
+                         src="./img/trademark-slide1.png" alt="#">
+                  </div>
+                  <div class="carousel__card">
+                    <img class="carousel__img"
+                         src="./img/trademark-slide2.png" alt="#">
+                  </div>
+                  <div class="carousel__card">
+                    <img class="carousel__img"
+                         src="./img/trademark-slide3.png" alt="#">
+                  </div>
+                  <div class="carousel__card">
+                    <img class="carousel__img"
+                         src="./img/trademark-slide4.png" alt="#">
+                  </div>
+            </div>
+        </div>
+        <div class="carousel__control">
+            <button class="carousel__btn carousel__btn--back">&#8678; Prev</button>
+            <button class="carousel__btn carousel__btn--next">Next &#8680;</button>
+        </div>
+       </div> -->
+        
+        <div class="contact">
+            <div class="container">
+                <a href="#" class="show-map-content">Về chúng tôi</a>
+                <a href="#" class="show-map-content">Liên hệ ngay</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="footer-container">
+            <div class="grid-4">
+                <div class="footer-item">
+                    <div class="footer-item__header">
+                        <h3>F2 - WATCH</h3>
+                    </div>
+                    <div class="footer-item__body">
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p>182 Lê Đại Hành P15 Q11 TPHCM</h5>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <i class="fa-solid fa-phone"></i>
+                                <p>1900546829</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p>support@f2.com</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <i class="fa-solid fa-clock"></i>
+                                <p>08:00 AM - 06:00 PM</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-item">
+                    <div class="footer-item__header">
+                        <h3>CHÍNH SÁCH</h3>
+                    </div>
+                    <div class="footer-item__body">
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <p>Tìm kiếm</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <p>Giới thiệu</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <p>Chính sách đổi trả</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <p>Chính sách bảo mật</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <p>Điều khoản dịch vụ</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-item">
+                    <div class="footer-item__header">
+                        <h3>THÔNG TIN HỖ TRỢ</h3>
+                    </div>
+                    <div class="footer-item__body">
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <p>Dịch vụ sửa chữa</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <p>Câu hỏi thường gặp</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <p>Chính sách bảo hành</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <p>Chính sách bảo mật</p>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <p>Hướng dẫn mua hàng</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-item">
+                    <div class="footer-item__header">
+                        <h3>ĐĂNG KÝ NHẬN ƯU ĐÃI</h3>
+                    </div>
+                    <div class="footer-item__body">
+
+                            <div class="footer-item__body--content">
+                                <input type="text" placeholder="Email của bạn...">
+                                <a href="#">
+                                    <p>ĐĂNG KÝ</p>
+                                </a>
+                            </div>
+             
+                   
+                            <div class="footer-item__body--content">
+                                <p>Nhập địa chỉ email của bạn để nhận được nhiều ưu đãi</p>
+                            </div>
+                      
+                        <a href="#">
+                            <div class="footer-item__body--content">
+                                <div class="footer-social-link">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                    <i class="fa-brands fa-youtube"></i>
+                                    <i class="fa-brands fa-pinterest-p"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-instagram-square"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/app.js"></script>
+</html>
