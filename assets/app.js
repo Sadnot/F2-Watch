@@ -21,50 +21,6 @@
     else { document.getElementById('header').style.background = 'black';}
  }
 
-// Xử lý slideshow
-let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex-1].style.display = "block"
-}
-
-
-// Countdown timer
-const fulT = new Date("July 1, 2022 00:00:00").getTime()
-
-setInterval(function() {
-  let noW = new Date().getTime()
-  let D = fulT - noW
-  let days = Math.floor(D/(1000*24*60*60))
-  let hours = Math.floor(D/(1000*60*60))
-  let mins = Math.floor(D/(1000*60))
-  let seconds = Math.floor(D/(1000))
-
-  hours %=24
-  mins %=60
-  seconds %=60
-
-  document.getElementById('days').innerText = days
-  document.getElementById('hours').innerText = hours
-  document.getElementById('minutes').innerText = mins
-  document.getElementById('seconds').innerText = seconds
-}, 1000);
 
 
 // Menu

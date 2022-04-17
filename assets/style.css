@@ -31,7 +31,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #ced3d3;
+    background: black;
     font-family:  "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1em;
     /* color: #767676; */
@@ -705,7 +705,7 @@ img {
 /* Nav-link-add */
 
 .nav-link-add {
-    position: absolute;
+    position: fixed;
     z-index: 100;
     top: 0;
     left: 0;
@@ -824,3 +824,78 @@ img {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* --------------------------------San pham------------------ */
+
+.main-img img {
+    max-height: 400px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.main-img img {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    color: white;
+    margin: 20px 50px;
+    border-bottom: 1px solid white;
+}
+
+.title h3 {
+    border-left: 3px solid white;
+    padding-left: 15px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: black;
+    background-color: whitesmoke;
+    padding: 6px 10px;
+    font-size: 17px;
+    margin-left: 15px;
+} 
+
+.current {
+    color: #fff;
+    background-color: rgba(83, 82, 82, 0.933);
+    padding: 6px 10px;
+    font-size: 18px;
+}
+
+.filter {
+    margin: 0 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+}
+
+.filter-item {
+display: flex;
+align-items: center;
+}
+
+.filter-item  a {
+    margin-left: 20px;
+    color: rgb(65, 65, 65);
+    background-color: #eeee;
+    padding: 6px 12px;
+    border-radius: 3px;
+    
+}
+
+.margin-bot {
+    margin-bottom: 50px;
+}
+
+
