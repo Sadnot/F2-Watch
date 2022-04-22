@@ -109,7 +109,7 @@ function showCart(){
   for(var i=0; i<localStorage.length; i++){
     var key=window.localStorage.key(i);
 
-    let item=itemList[key];
+    var item=itemList[key];
     let photo=item.photo;
     let Name=item.name;
     let price=item.price;
