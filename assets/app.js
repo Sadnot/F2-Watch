@@ -55,35 +55,35 @@ closeBtn2.addEventListener('click', () => {
 var itemList={
   "sp001":{   "name":"ĐỒNG HỒ CALVIN KLEIN NAM K5R31B46",
               "price":55000000,
-              "photo":"./img/product1.webp"},
+              "photo":"../img/product1.webp"},
 
   "sp002":{   "name":"ĐỒNG HỒ CHARRIOL NỮ MOPD3",
               "price":45000000,
-              "photo":"./img/product2.webp"},
+              "photo":"../img/product2.webp"},
 
   "sp003":{   "name":"ĐỒNG HỒ CITIZEN NAM NH8390-03X",
               "price":54000000,
-              "photo":"./img/product3.webp"},
+              "photo":"../img/product3.webp"},
 
   "sp004":{   "name":"ĐỒNG HỒ LONGINES NAM L2",
               "price":74000000,
-              "photo":"./img/product4.webp"},
+              "photo":"../img/product4.webp"},
               
   "sp005":{   "name":"ĐỒNG HỒ LONGINES NAM L2.893.4",
               "price":69000000,
-              "photo":"./img/product5.webp"},
+              "photo":"../img/product5.webp"},
 
   "sp006":{   "name":"ĐỒNG HỒ CITIZEN NAM NH8390-03X",
               "price":54000000,
-              "photo":"./img/hot-pr1.webp"},
+              "photo":"../img/hot-pr1.webp"},
 
   "sp007":{   "name":"ĐỒNG HỒ MIDO NAM M021.626",
               "price":80000000,
-              "photo":"./img/product6.webp"},
+              "photo":"../img/product6.webp"},
 
   "sp008":{   "name":"ĐỒNG HỒ MIDO NAM M032.60",
               "price":70000000,
-              "photo":"./img/product7.webp"},
+              "photo":"../img/product7.webp"},
   
   };
 
