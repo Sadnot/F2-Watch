@@ -898,4 +898,47 @@ align-items: center;
     margin-bottom: 50px;
 }
 
+.cart-main {
+    background-color: #fff;
+}
 
+.cart-main {
+    background: rgba(24, 23, 23, 0.5);
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+.cart-main h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: burlywood;
+    border-bottom: 2px solid burlywood;
+    display: inline-block;
+    left: 40%;
+    position: relative;
+}
+
+.cart-main table {
+    color: var(--white);
+}
+
+.cart-main table tr {
+    gap: 30px;
+}
+
+.cart-btn {
+    border: none;
+    outline: none;
+    color: var(--dark);
+    background-color: var(--white);
+    font-size: 16px;
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#header a {
+    color: var(--white);
+    display: flex;
+}

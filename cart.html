@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon" style="size: 18px; background: transparent">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body onload="showCart()">
     <div id="header" style="background: transparent;">
         <div class="header-nav">
             <div class="header-nav-item menu">
@@ -146,6 +146,31 @@
         </div>
 
     </div>
+
+    <main class="cart-main">
+        <h1 class="h1">Chi Tiết Đơn Hàng</h1>
+        <table style="width:100%">
+            <thead>
+                <tr>
+                    <th>Hình sản phẩm</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Giá</th>
+                    <th>Thành tiền</th>
+                    <th>Xoá sản phẩm</th>
+                </tr>
+            </thead>
+            <tbody id="kiet">
+            </tbody>
+            <tfoot id="foot">
+                <tr>
+                    <td colspan="6" style="text-align: center;">
+                        <button class="cart-btn" onclick="xacnhan()">Xác nhận đơn hàng</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
 
 
     <div id="footer">
@@ -285,48 +310,5 @@
     </div>
 </body>
 <script src="./assets/app.js" type="text/javascript">
-    let slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex-1].style.display = "block"
-}
-
-// Countdown timer
-const fulT = new Date("July 1, 2022 00:00:00").getTime()
-
-setInterval(function() {
-  let noW = new Date().getTime()
-  let D = fulT - noW
-  let days = Math.floor(D/(1000*24*60*60))
-  let hours = Math.floor(D/(1000*60*60))
-  let mins = Math.floor(D/(1000*60))
-  let seconds = Math.floor(D/(1000))
-
-  hours %=24
-  mins %=60
-  seconds %=60
-
-  document.getElementById('days').innerText = days
-  document.getElementById('hours').innerText = hours
-  document.getElementById('minutes').innerText = mins
-  document.getElementById('seconds').innerText = seconds
-}, 1000);
-
 </script>
 </html>
