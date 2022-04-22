@@ -109,11 +109,11 @@ function showCart(){
   for(var i=0; i<localStorage.length; i++){
     var key=window.localStorage.key(i);
 
-    item=itemList[key];
-    photo=item.photo;
-    Name=item.name;
-    price=item.price;
-    ordernumber=window.localStorage.getItem(key);
+    let item=itemList[key];
+    let photo=item.photo;
+    let Name=item.name;
+    let price=item.price;
+    let ordernumber=window.localStorage.getItem(key);
 
     var fra= document.createDocumentFragment();
     var td = document.createElement('td');
